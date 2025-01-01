@@ -1,0 +1,65 @@
+Time resolution is 1 ps
+Memory initialized:
+memory[0] = 0000000000000010
+memory[1] = 0000010000000001
+memory[2] = 0000100000000010
+memory[3] = 0000110000000111
+memory[4] = 0110010000000000
+memory[5] = 0101001000000000
+memory[6] = 0101010000000000
+memory[7] = 0101100100000000
+memory[8] = 0011110000000000
+memory[9] = 0100110000000100
+memory[10] = 0001010011111111
+memory[11] = 0010000000000000
+Starting simulation...
+LD: r0 = 2
+LD: r1 = 1
+LD: r2 = 2
+LD: r3 = 7
+ADD: r1 + r0 -> r0
+MV: r0 -> r2
+MV: r1 -> r0
+MV: r2 -> r1
+DEC: r3 -> 7
+GONZ: r3 != 0, goto 4
+ADD: r1 + r0 -> r0
+MV: r0 -> r2
+MV: r1 -> r0
+MV: r2 -> r1
+DEC: r3 -> 6
+GONZ: r3 != 0, goto 4
+ADD: r1 + r0 -> r0
+MV: r0 -> r2
+MV: r1 -> r0
+MV: r2 -> r1
+DEC: r3 -> 5
+GONZ: r3 != 0, goto 4
+ADD: r1 + r0 -> r0
+MV: r0 -> r2
+MV: r1 -> r0
+MV: r2 -> r1
+DEC: r3 -> 4
+GONZ: r3 != 0, goto 4
+ADD: r1 + r0 -> r0
+MV: r0 -> r2
+MV: r1 -> r0
+MV: r2 -> r1
+DEC: r3 -> 3
+GONZ: r3 != 0, goto 4
+ADD: r1 + r0 -> r0
+MV: r0 -> r2
+MV: r1 -> r0
+MV: r2 -> r1
+DEC: r3 -> 2
+GONZ: r3 != 0, goto 4
+ADD: r1 + r0 -> r0
+MV: r0 -> r2
+MV: r1 -> r0
+MV: r2 -> r1
+DEC: r3 -> 1
+GONZ: r3 == 0, continue
+ST: r1 -> MEM[255]
+STOP
+Simulation finished. Processor stopped.
+$finish called at time : 1940 ns : File "Z:/Developer/core/vivado/processor/processor.srcs/sim_1/new/testbench.sv" Line 36
